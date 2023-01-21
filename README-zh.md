@@ -56,7 +56,7 @@ resonantspectrum;Oram, Andy;IEEE;guidebook design,guidebook writer;-
 
 ## 📜 协议&许可证
 
-> **MkDocsTemplate 的内容基于 [CC BY-SA 4.0 许可证](LICENSE) 授权**
+> **`theopensourceway-guidebook-zh` 基于 [CC BY-SA 4.0 许可证](LICENSE) 授权**
 
 ``` text
 theopensourceway-guidebook-zh 根据知识共享（Creative Commons）
