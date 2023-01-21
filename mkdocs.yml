@@ -20,7 +20,7 @@ markdown_extensions:
   - tables
 
 nav:
-  - 欢迎使用 MkDocs: index.md
+  - 主页: index.md
   - 参与贡献:
     - 格式手册: contribution/format-guide.md
 
