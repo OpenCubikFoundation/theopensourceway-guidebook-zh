@@ -46,7 +46,7 @@ resonantspectrum;Oram, Andy;IEEE;guidebook design,guidebook writer;-
 
 **您的提交信息应当遵守 [约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/) 规则**
 
-**请确保您遵守了 [格式手册](https://theopensourceway-guidebook-zh.rtfd.io/contribution/format-guide)**
+**请确保您遵守了 [格式手册](https://theopensourceway-guidebook-zh.readthedocs.io/contribution/format-guide)**
 
 ## 协议&许可证
 
