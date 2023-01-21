@@ -52,9 +52,7 @@ resonantspectrum;Oram, Andy;IEEE;guidebook design,guidebook writer;-
 
 ## Guide to contribute to the documentation
 
-**Your commit messages should follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) guidelines**.
-
-**Please make sure you followed the [format guide](https://theopensourceway-guidebook-zh.readthedocs.io/zh_CN/latest/contribution/format-guide/)**.
+Before contributing, **please make sure you have read the [Contribution Guide](https://theopensourceway-guidebook-zh.readthedocs.io/en/latest/contribution/guide/)**.
 
 ## 📜 License
 

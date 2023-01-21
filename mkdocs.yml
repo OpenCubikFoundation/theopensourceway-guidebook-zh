@@ -10,6 +10,11 @@ copyright: Licensed under Creative Commons Attribution 4.0 International License
 theme:
   name: material
   language: zh
+  include_search_page: false
+  search_index_only: true
+  features:
+    - navigation.tabs
+    - navigation.instant
   
 markdown_extensions:
   - admonition
@@ -18,10 +23,12 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
   - tables
+  - footnotes
 
 nav:
   - 主页: index.md
   - 参与贡献:
+    - 贡献指引: contribution/guide.md
     - 格式手册: contribution/format-guide.md
 
 plugins:
