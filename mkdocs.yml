@@ -1,0 +1,65 @@
+site_name: My Docs
+docs_dir: 'docs'
+repo_url: https://github.com/CubikTech/MkDocsTemplate
+repo_name: CubikTech/MkDocsTemplate
+edit_uri: edit/main/docs/
+
+site_author: Contributors
+copyright: Licensed under Creative Commons Attribution-NonCommercial 4.0 International License.
+
+theme:
+  name: material
+  language: en
+
+nav:
+  - Welcome to MkDocs: index.md
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      material_alternate: true
+      languages:
+        en:
+          name: English
+        zh:
+          name: 中文
+      nav_translations:
+        zh:
+          Welcome to MkDocs: 欢迎使用 MkDocs
+  - with-pdf:
+      #author: Contributors
+      #copyright: Licensed under Creative Commons Attribution-NonCommercial 4.0 International License.
+        
+      cover: true
+      back_cover: true
+      cover_title: TITLE TEXT
+      cover_subtitle: SUBTITLE TEXT
+      #custom_template_path: TEMPLATES PATH
+        
+      #toc_title: TOC TITLE TEXT
+      #heading_shift: false
+      #toc_level: 3
+      #ordered_chapter_level: 2
+      #excludes_children:
+      #   - 'release-notes/:upgrading'
+      #   - 'release-notes/:changelog'
+
+      #exclude_pages:
+      #   - 'bugs/'
+      #   - 'appendix/contribute/'
+      #convert_iframe:
+      #   - src: IFRAME SRC
+      #     img: POSTER IMAGE URL
+      #     text: ALTERNATE TEXT
+      #   - src: ...
+      #two_columns_level: 3
+        
+      #render_js: true
+      #headless_chrome_path: headless-chromium
+      
+      #enabled_if_env: ENABLE_PDF_EXPORT
+        
+      #debug_html: true
+      #show_anchors: true
+      #verbose: true
