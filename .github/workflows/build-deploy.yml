@@ -51,7 +51,7 @@ jobs:
       - name: Rename and Move PDF
         run: |
           mkdir pdf
-          mv site/zh/pdf/document.pdf pdf/${{ github.event.repository.name }}-zh-${{ env.SHORT_SHA }}.pdf
+          mv site/pdf/document.pdf pdf/${{ github.event.repository.name }}-zh-${{ env.SHORT_SHA }}.pdf
       - name: Upload PDF
         uses: actions/upload-artifact@v3
         with:
