@@ -10,9 +10,19 @@ copyright: Licensed under Creative Commons Attribution 4.0 International License
 theme:
   name: material
   language: zh
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - tables
 
 nav:
   - 欢迎使用 MkDocs: index.md
+  - 参与贡献:
+    - 格式手册: contribution/format-guide.md
 
 plugins:
   - search

@@ -54,6 +54,8 @@ resonantspectrum;Oram, Andy;IEEE;guidebook design,guidebook writer;-
 
 **Your commit messages should follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) guidelines**.
 
+**Please make sure you followed the [format guide](https://theopensourceway-guidebook-zh.rtfd.io/contribution/format-guide)**.
+
 ## 📜 License
 
 > **`theopensourceway-guidebook-zh` are licensed under [CC BY-SA 4.0 License](LICENSE).**
