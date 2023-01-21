@@ -1,40 +1,29 @@
-site_name: My Docs
+site_name: 开源之道 - The Open Source Way Guidebook
 docs_dir: 'docs'
-repo_url: https://github.com/CubikTech/MkDocsTemplate
-repo_name: CubikTech/MkDocsTemplate
+repo_url: https://github.com/OpenCubikFoundation/theopensourceway-guidebook-zh
+repo_name: OpenCubikFoundation/theopensourceway-guidebook-zh
 edit_uri: edit/main/docs/
 
-site_author: Contributors
-copyright: Licensed under Creative Commons Attribution-NonCommercial 4.0 International License.
+site_author: OpenCubikFoundation & 所有贡献者
+copyright: Licensed under Creative Commons Attribution 4.0 International License.
 
 theme:
   name: material
-  language: en
+  language: zh
 
 nav:
-  - Welcome to MkDocs: index.md
+  - 欢迎使用 MkDocs: index.md
 
 plugins:
   - search
-  - i18n:
-      default_language: en
-      material_alternate: true
-      languages:
-        en:
-          name: English
-        zh:
-          name: 中文
-      nav_translations:
-        zh:
-          Welcome to MkDocs: 欢迎使用 MkDocs
   - with-pdf:
       #author: Contributors
       #copyright: Licensed under Creative Commons Attribution-NonCommercial 4.0 International License.
-        
+      
       cover: true
       back_cover: true
-      cover_title: TITLE TEXT
-      cover_subtitle: SUBTITLE TEXT
+      cover_title: 开源之道
+      cover_subtitle: The Open Source Way Guidebook
       #custom_template_path: TEMPLATES PATH
         
       #toc_title: TOC TITLE TEXT
