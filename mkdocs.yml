@@ -27,6 +27,7 @@ markdown_extensions:
 
 nav:
   - 主页: index.md
+  - 目录: toc.md
   - 参与贡献:
     - 贡献指引: contribution/guide.md
     - 格式手册: contribution/format-guide.md
