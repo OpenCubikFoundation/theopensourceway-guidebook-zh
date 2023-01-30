@@ -2,6 +2,8 @@
 
 !!! note "提示"
     此处标题为中文的微已经翻译完成的章节，而英文的部分仍未翻译完成，欢迎大家一起来翻译。
+    在贡献之前，**请确保您完整的阅读过 [贡献指引](https://theopensourceway-guidebook-zh.readthedocs.io/zh_CN/latest/contribution/guide/)**
+    **以及 [格式手册](https://theopensourceway-guidebook-zh.readthedocs.io/zh_CN/latest/contribution/format-guide)。**
 
 - Presenting the Open Source Way
     - The Shape of Things (I.e., Assumptions We Are Making)
