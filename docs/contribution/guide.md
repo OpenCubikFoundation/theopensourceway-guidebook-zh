@@ -17,7 +17,7 @@
     !!! note "提示"
         请在开始贡献之前打开一个新的 [Issue](https://github.com/OpenCubikFoundation/theopensourceway-guidebook-zh/issues/new) 让维护者/其他贡献者知道你在做的事情，避免重复工作。
 
-- 否则，前往 [Issue 页面](https://github.com/OpenCubikFoundation/theopensourceway-guidebook-zh/issues) 查看已有的 Issue，如果你发现了一个你想要解决的 Issue，请根据 Issue 的内容找到对应的页面；
+- 否则，前往 [TODO-List](https://github.com/OpenCubikFoundation/theopensourceway-guidebook-zh/issues/1) 查看需要进行翻译的内容。如果你想要向其中的某个页面贡献，请在该页面的 Issue 下方留言并 `@` 我 (`@Cubik65536`) 告知你想要贡献的页面。我会开启另外一个 issue 并将其分配给你，对该页面的内容的工作将在新 issue 内跟踪。
 
 前往 [GitHub 仓库](https://github.com/OpenCubikFoundation/theopensourceway-guidebook-zh) 中的 `docs` 目录，你将可以看到所有页面的 Markdown 源文件，根据路径找到你想要编辑的文件。
 
