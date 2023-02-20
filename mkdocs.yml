@@ -10,12 +10,34 @@ copyright: Licensed under Creative Commons Attribution 4.0 International License
 theme:
   name: material
   language: zh
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
   include_search_page: false
   search_index_only: true
   features:
     - navigation.tabs
     - navigation.instant
+
+# Customization
+extra_css:
+  - '_static/css/extra.css?v=14'
   
+# Extensions
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -25,6 +47,7 @@ markdown_extensions:
   - tables
   - footnotes
 
+# Navigation
 nav:
   - 主页: index.md
   - 目录: toc.md
@@ -32,6 +55,7 @@ nav:
     - 贡献指引: contribution/guide.md
     - 格式手册: contribution/format-guide.md
 
+# Plugins
 plugins:
   - search
   - with-pdf:
